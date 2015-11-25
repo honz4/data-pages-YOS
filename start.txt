@@ -1,0 +1,37 @@
+Cíle předmětu (anotace):
+Předmět se věnuje teoretickým i praktickým základům soudobých operačních systémů (OS).
+
+Požadavky na studenta
+Zkouška: kombinovaná, písemný test, hodnocení domácích prací.
+
+Obsah
+Probírána je celková struktura a principy fungování OS a jeho jednotlivých součástí.
+Konkrétní způsoby řešení některých úkolů OS a technologie použité v moderních OS jsou ukázány
+na systémech Microsoft Windows NT a GNU/Linux (jako zástupce unixových OS).
+Kromě výkladu operačních systémů je součástí kursu i stručný úvod do programování v jazyce symbolických adres (assembler),
+ve kterém jsou implementovány kritické součásti OS závislé na hardware.
+
+  * Programování v jazyce symbolických adres (assembler), strojové instrukce a jejich vykonávání.
+  * Řízení výpočtu, volání podprogramů, přerušení.
+  * Funkce a význam operačních systémů, typy operačních systémů, historický přehled.
+  * Architektura operačního systému. Správa hardwarových zařízení, ovladače.
+  * Správa procesů a procesoru, proces a jeho životní cyklus, přidělování procesoru, procesy a vlákna.
+  * Synchronizace procesů a vláken. Deadlock (uváznutí), podmínky pro jeho vznik, detekce, prevence a předcházení.
+  * Implementace synchronizace v operačním systému, atomické operace, synchronizační primitiva (semafory, mutexy), aktivní a pasivní čekání.
+  * Správa operační paměti. Virtuální paměť.
+  * Správa diskového prostoru a správa souborů (souborové systémy), disková pole.
+  * Bezpečnost v operačních systémech, kategorie bezpečnosti.
+
+Garanti: Mgr. Jan Outrata, Ph.D., 
+Přednášející: Mgr. Petr Krajča, Ph.D., 
+
+Literatura
+
+  * Keprt A. Assembler. Univerzita Palackého, 2008.
+  * Tanenbaum A.S. Modern Operating Systems, 2nd. Prentice-Hall, 2001. [[isbn>0-13-031358-0]]
+  * Operační systémy (Keprt A.)
+  * Silberschatz A., Galvin P.B., Gagne G. Operating System Concepts. Seventh Edition. John Wiley & sons, 2005. [[isbn>0-471-69466-5]]
+  * Stallings W. Operating Systems: Internals and Design Principles, 5th. Prentice Hall, 2004. [[isbn>0-13-147954-7]]
+  * Systémové programování v jazyce C# (Keprt A.)
+  * Bovet D., Cesati M. Understanding Linux Kernel, 3rd edition. O?Reilly, 2006. [[isbn>0596005652]]
+  * Solomon D.A., Russinovich M. E. Windows Internals: Covering Windows Server 2008 and Windows Vista. Microsoft Press, 2009. [[isbn>0735625301]]

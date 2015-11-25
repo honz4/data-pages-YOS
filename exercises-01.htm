@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Cvièení I
+</title>
+<link rel="stylesheet" href="../../../page.css" type="text/css"></head>
+<body>
+<div id="uberframe"><div id="main"><div id="content"><h1>Cvièení I</h1>
+
+<p>Úkoly mají za cíl procvièit programovaní v assembleru s vyu¾itím inline assembleru ve Visual Studiu (Visual C). Cílem v¹ech úkolù je implementovat jednoduché matematické funkce. Jazyk C vyu¾ijte k vytvoøení hlavièky funkce, pøípadnì lokálních promìnných a otestování její funkcionality. V assembleru pak implementujte zbytek funkce.</p>
+
+Pøíklad:
+<pre>
+int inc(int foo) {
+  int result;
+  _asm {
+     mov eax, foo
+     add eax, 2
+     mov result, eax
+  }
+  return result;
+}
+</pre>
+
+<h2>Úkol 1</h2>
+<ul>
+<li>Napi¹te v assembleru funkci <code>int obvod_obdelnika(int a, int b),</code> která spoèítá obvod obdélníka.</li>
+<li>Napi¹te v assembleru funkci <code>int obsah_obdelnika(int a, int b),</code> která spoèítá obsah obdélníka.</li>
+<li>Napi¹te v assembleru funkci <code>int obvod_ctverce(int a),</code> která spoèítá obvod ètverce.</li>
+<li>Napi¹te v assembleru funkci <code>int obsah_ctverce(int a),</code> která spoèítá obsah ètverce.</li>
+</ul>
+
+<h2>Úkol 2</h2>
+<ul>
+<li>Napi¹te v assembleru funkci <code>int fact_iter(int n)</code>, která iterativní zpùsobem (s pou¾itím cyklu) vypoèítá faktoriál èísla n.
+</ul>
+
+<h2>Úkol 3</h2>
+<ul>
+<li>Napi¹te v assembleru funkci <code>int fact_rec(int n)</code>, která rekurzivním zpùsobem vypoèítá faktoriál èísla n.
+</ul>
+
+<h2>Úkol 4</h2>
+<ul>
+<li>Napi¹te v assembleru funkci <code>int fib(int n)</code>, která rekurzivním zpùsobem vypoèítá fibonacciho èíslo n.
+</ul>
+</div><br style="clear: both"><div class="powered"><p style="float: left;">Last update on 22. 10. 2015 22:54
+<br>Powered by <a href="http://schemik.sourceforge.net?powered">Schemik</a>.</p><p style="float: right; text-align:right;">&copy; Petr Krajèa, 2010, 2012<br>petr.krajca (at) upol.cz</p></div></div></div><script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script><script type="text/javascript">try {var pageTracker = _gat._getTracker("UA-13256684-1");pageTracker._trackPageview();} catch(err) {}</script></body></html>
